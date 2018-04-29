@@ -1,5 +1,5 @@
 module.exports = class WorkerInteractor {
-  constructor() {
-
+  constructor(store) {
+    this.store = store;  
   }
 };

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha **/*.test.js",
-    "test-watch": "./node_modules/.bin/nodemon --exec 'npm test'"
+    "test": "./node_modules/.bin/mocha ./test/**/*.test.js",
+    "test-watch": "./node_modules/.bin/nodemon --exec npm test"
   },
   "repository": {
     "type": "git",
