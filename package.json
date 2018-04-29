@@ -1,0 +1,29 @@
+{
+  "name": "clocker-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha **/*.test.js",
+    "test-watch": "./node_modules/.bin/nodemon --exec 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMilmanGitHub/Clocker-Make-Time-Count.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexMilmanGitHub/Clocker-Make-Time-Count/issues"
+  },
+  "homepage": "https://github.com/AlexMilmanGitHub/Clocker-Make-Time-Count/readme",
+  "devDependencies": {
+    "expect": "^22.4.3",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "js-data": "^3.0.2",
+    "js-data-adapter": "^0.8.5"
+  }
+}
